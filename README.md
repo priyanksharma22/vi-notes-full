@@ -27,3 +27,13 @@ Follow these steps to get the project running on your local machine.
 Ensure MongoDB is installed and running. Open a terminal and start the MongoDB daemon:
 ```bash
 mongod
+
+
+cd backend
+npm install
+node src/index.js
+
+
+cd frontend
+npm install --legacy-peer-deps
+npm start
