@@ -1,4 +1,4 @@
-const BASE_URL = 'https://vi-notes-backend-qloi.onrender.com/';
+const BASE_URL = 'https://vi-notes-backend-qloi.onrender.com/api';
 
 interface AuthResponse {
   message: string;
