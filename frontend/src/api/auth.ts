@@ -1,4 +1,4 @@
-const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const BASE_URL = 'https://vi-notes-backend-qloi.onrender.com/';
 
 interface AuthResponse {
   message: string;
